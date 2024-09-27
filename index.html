@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Landing Page/ Sifa Businness Shop</title>
+    <link rel="stylesheet" href="landingpageSifaBussinesShopMin.css">
+    <link rel="stylesheet" href="uicons-brands/css/uicons-brands.css">
+</head>
+<body>
+    <header>
+        <div><img src="images/logo3.png" alt="Logo du site"></div>
+        <nav id="navigation">
+            <ul role="menu">
+                <li><a href="">Accueil</a></li>
+                <li><a href="">Articles</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Contacts</a></li>
+            </ul>
+            <button type="button"  id="Connexion">Connexion</button>
+        </nav>
+        <!-- &#9776; menu burger code ascii --> <div id="menu_burger">
+            <div class="enfant"></div>
+            <div class="enfant"></div>
+            <div class="enfant"></div>
+        </div>
+    </header>
+    <main>
+        <div role="banner" id="banner">
+            <header id="bannerH">
+                <h1>Un style qui <span id="bouger">fait </span> Decouvrez notre nouvel ensemble sportwear <br>Racing !</h1>
+                <P>Performance et confort réunis pour un look unique. 
+                    Conçu pour ceux qui aiment se demarquer.</P>
+                <button type="button">Découvrir le produit !</button>
+            </header>
+            <main id="ProductImag">
+                <img src="images/FB_IMG_17181939955521110-removebg-preview.png" alt="">
+            </main>
+        </div>
+        <section id="Avantages">
+            <div>
+                <h2>Avantages</h2>
+            </div>
+            <section id="elementAv">
+                <div class="element">
+                    <h3>Desing Unique</h3>
+                    <p>Motifs à damier tendance pour un style urbain affirmé</p>
+                    </div>
+                <div class="element">
+                    <h3>Fit Parfait</h3>
+                    <p>Disponible en plusieurs tailles pour un ajustement idéal</p>
+                </div>
+                <div class="element">
+                    <h3>Confort Optimal</h3>
+                    <p>Tissu respirant et léger, idéal pour l'été ou pour le sport</p>
+                </div>
+                <div class="element">
+                    <h3>Détails de qualité</h3>
+                    <p>Imprimés <span>Racing</span> dynamiques avec des touches de vert éclatant</p>
+                </div>
+            </section>
+        </section>
+
+        <section id="Temoignages">
+            <div>
+                <h2>Temoignages Clients</h2>
+            </div>
+            <section>
+                <div>
+                    <img src="images/client1.png" alt="">
+                    <div>
+                        <h3>Sarah P.</h3>
+                        <p>Super confort et j'adore les détails du motif à damier. je l'ai déjà recommandé à mes amis !</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="images/client2.png" alt="">
+                      <div>
+                        <h3>Alex D.</h3>
+                        <p>Je suis tombé amoureux de cet ensemble dès que je l'ai vu. Le design est à la fois stylé et pratique pour mes sessions sportives. Un must ! </p>
+                    </div>
+                </div>
+                
+            </section>
+        </section>
+        <section id="Offre">
+            <div>
+                <h2>Offre Speciale</h2>
+            </div>
+            <div id="promo">
+                <h3>Promo de lancement</h3>
+                <p>Commandez aujourd'hui et obtenez une <span>remise de 15 % </span>  avec le <span> code 
+                    RACING15.</span>
+                    Offre valable <span>jusqu'au 15 octobre 2024.</span></p>
+            </div>
+            <div id="Commander">
+                <h3>obtenez votre ensemble maintenant !</h3>
+                <button>Commander Maintenant !</button>
+            </div>
+        </section>
+        <section id="DetailsTechniques">
+            <div>
+                <h2>Détails Techniques</h2>
+            </div>
+            <section>
+                <div>
+                    <h3>Composition</h3>
+                    <p> 80 % coton, 20 % polyester.</p>
+                </div>
+                <div id="barriere">
+                    <h3>Entretien</h3>
+                    <p>Lavable en machine à 30 degré C, séchage 
+                        à l'air libre recommandé.</p>
+                </div>
+                <div>
+                    <h3>Taille</h3>
+                    <p>Disponible du S au XXL.</p>
+                </div>
+            </section>
+        </section>
+        <section id="garantie">
+            <div>
+                <h2>Garentie</h2>
+            </div>
+            <p>
+                Satisfait ou remboursé sous 30 jours.
+            </p>
+
+        </section>
+    </main>
+    <footer>
+        <div id="haut">
+                <div id="sous-haut">
+                       <ion-icon  name = "logo-linkedin" > </ion-icon>
+                    <ion-icon name="logo-facebook"></ion-icon>
+                               <ion-icon  name = "logo-instagram" > </ion-icon>
+                                          <ion-icon  name = "logo-twitter" > </ion-icon>
+                </div>
+                <div id="PlusDetails">
+                    <h3>Apropos</h3>
+                    <h3>Pour plus d'infos</h3></div>
+            </div>
+        </div>
+        <div id="bas">
+            <p>Sifa Businness Shop &copy; 2024. All right reserved </p>
+            <p><a href="">Politique de confidentialité</a></p>
+            <p><a href="">FAQ</a></p>
+        </div>
+    </footer>
+
+    <!-- javascript -->
+    	
+    <script>
+        const burger_menu = document.getElementById("menu_burger");
+        const menuLinks = document.getElementById("navigation");
+
+        burger_menu.addEventListener('click', function(){
+            menuLinks.classList.toggle('basculer');
+            burger_menu.classList.toggle('basculer')
+        })
+ 
+    </script>
+    <script type = "module"  src = "https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js">
+    	
+    </script>
+    
+    <script script  nomodule  src = "https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js" >
+     </script>
+
+</body>
+    
