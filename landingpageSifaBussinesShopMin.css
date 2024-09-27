@@ -1,14 +1,14 @@
 @font-face {
     font-family: Barlow-Regular;
-    src: url(Barlow/Barlow-Regular.ttf);
+    src: url(Polices/Barlow-Regular.ttf);
 }
 @font-face {
     font-family: Barlow-Medium;
-    src: url(Barlow/Barlow-Medium.ttf);
+    src: url(Polices/Barlow-Medium.ttf);
 }
 @font-face {
     font-family: Barlow-Bold;
-    src: url(Barlow/Barlow-ExtraBold.ttf);
+    src: url(Polices/Barlow-ExtraBold.ttf);
 }*{
     margin: 0;
     padding: 0;
