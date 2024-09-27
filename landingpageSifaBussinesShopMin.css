@@ -434,6 +434,9 @@ font-size: 1.3em;
 #DetailsTechniques>section>div:hover::after{
     right: 0;
 }
+#sous-haut{
+    font-size: 2rem;
+}
 }@media  (max-width : 600px){
     #Temoignages>section>div{
         text-align: center;
