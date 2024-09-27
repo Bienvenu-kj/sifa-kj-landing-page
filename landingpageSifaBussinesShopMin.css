@@ -103,7 +103,7 @@
     margin-top: 7.7rem;
 }div[role="banner"]{
     display: flex;
-    padding: 6rem;
+    padding: 14rem 6rem;
     background-color: #F4F3F1;
     background-blend-mode: multiply;
 }div[role="banner"] header{
