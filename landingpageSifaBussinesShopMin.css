@@ -142,7 +142,6 @@
 }div[role="banner"] main img{
     width: 550px;
     height: 550px;
-
 }#Avantages>section{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
