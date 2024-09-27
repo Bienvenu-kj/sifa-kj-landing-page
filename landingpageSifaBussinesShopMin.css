@@ -387,6 +387,10 @@ font-size: 1.3em;
     gap : 2rem;
 }
 }@media  (max-width : 640px){
+    body>header img{
+    width: 40%;
+    
+    }
     button{
         font-size: 0.9rem;
         padding : 8px;
