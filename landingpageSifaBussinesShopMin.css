@@ -338,6 +338,9 @@ font-size: 1.3em;
         padding : 10px;
 
     }
+    div[role="banner"]>header{
+    margin-top: 14rem
+    }
     div[role="banner"] header button{
         width: 280px;
         font-size: 1.5rem;
