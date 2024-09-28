@@ -276,6 +276,9 @@ font-size: 1.3em;
     body>header #Connexion{
         margin-right: 0rem;
         margin-bottom: 4rem;
+        padding : 10px;
+        font-size: 1rem;
+        width : 10rem
     }
     body>header>#navigation{
         opacity: 0;
@@ -355,13 +358,8 @@ font-size: 1.3em;
         flex-direction: column;
         gap: 40px;
         position: absolute;
-        top : 8rem;
+        top : 7.85rem;
         left : 0;
-    }
-    #Connexion{
-        padding : 10px;
-        font-size: 1rem;
-        width : 10rem;
     }
     #Avantages>section{
         grid-template-columns: repeat(2, 50%);
