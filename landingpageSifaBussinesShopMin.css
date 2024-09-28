@@ -28,6 +28,8 @@
     border : none;
     background-color: #28D092;
     word-spacing: 4px;
+    border: 2px solid #1E9A74; /* Bordure foncée */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3)
     letter-spacing: 1.5px;
     padding : 17px;
     border-radius: 72px;
@@ -273,7 +275,7 @@ font-size: 1.3em;
     }
     body>header #Connexion{
         margin-right: 0rem;
-        margin-bottom: 2rem;
+        margin-bottom: 4rem;
     }
     body>header>#navigation{
         opacity: 0;
@@ -353,8 +355,7 @@ font-size: 1.3em;
         flex-direction: column;
         gap: 40px;
         position: absolute;
-        top : 120px;
-    
+        top : 8rem;
         left : 0;
     }
     #Connexion{
