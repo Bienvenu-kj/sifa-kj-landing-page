@@ -28,8 +28,8 @@
     border : none;
     background-color: #28D092;
     word-spacing: 4px;
-    border: 2px solid #1E9A74; /* Bordure foncée */
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3)
+    border: 2px solid #1E9A74;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
     letter-spacing: 1.5px;
     padding : 17px;
     border-radius: 72px;
