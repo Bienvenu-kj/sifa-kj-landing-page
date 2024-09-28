@@ -391,6 +391,9 @@ font-size: 1.3em;
         max-height: 80vh; /* 80% de la hauteur de la vue */
         overflow-y: auto; /* Activer le défilement vertical si nécessaire */
     }
+    body>header #Connexion{
+        margin-bottom: 20px;
+    }
 }
  @media  (max-width : 640px){
     body>header img{
