@@ -318,7 +318,7 @@ font-size: 1.3em;
         display: none;
     }
     #banner{
-        padding: 2rem;
+        padding: 7rem 2rem;
         flex-direction: column;
         gap: 60px;
     }
